@@ -1,23 +1,17 @@
-/**
- * Created by lauro on 15/10/16.
- */
 angular.module('minhasDiretivas', [])
-    .directive('meuPainel', function () {
-        var ddo = {};
+	.directive('meuPainel', function() {
 
-        ddo.restric = "AE";
-        /*
-         A = atribute
-         E = element
-         */
+		var ddo = {};
 
-        ddo.scope = {
-            titulo: '@' // = titulo: '@titulo'
-
-        };
-        // Transclude manter os elementos filhos da diretiva
+		ddo.restrict = "AE";
         ddo.transclude = true;
 
-        ddo.templateUrl = 'js/directives/meu-painel.html'
-        return ddo;
-    });
+
+		ddo.scope = {
+            titulo: '@'
+        };
+
+        ddo.templateUrl = 'js/directives/meu-painel.html';
+
+		return ddo;
+	});
