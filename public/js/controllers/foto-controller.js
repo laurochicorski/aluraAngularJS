@@ -1,9 +1,10 @@
 /**
  * Created by lauro on 15/10/16.
  */
-angular.module('alurapic').controller('FotoController', function ($scope, $http, $routeParams) {
+angular.module('alurapic').controller('FotoController', function ($scope, $http, recursoFoto, $routeParams) {
    $scope.foto = {};
    $scope.mensagem = '';
+
 
     if($routeParams.fotoId){
         $http.get('v1/fotos/' + $routeParams.fotoId)
@@ -20,24 +21,22 @@ angular.module('alurapic').controller('FotoController', function ($scope, $http,
    $scope.submeter = function () {
        if($scope.formulario.$valid){
            if($scope.foto._id){
-                $http.put('v1/fotos/' + $scope.foto._id, $scope.foto)
-                    .success(function () {
-                        $scope.mensagem = 'A foto ' + $scope.foto.titulo + ' alterada com sucesso';
-                    })
-                    .error(function (erro) {
-                        console.log(erro);
-                        $scope.mensagem = 'Não foi possível alterar a foto' + $scope.foto.titulo;
-                    })
+
+                recursoFoto.update({fotoId : $scope.foto._id}, $scope.foto, function () {
+                    $scope.mensagem = 'A foto ' + $scope.foto.titulo + ' alterada com sucesso';
+                }, function (erro) {
+                    console.log(erro);
+                    $scope.mensagem = 'Não foi possível alterar a foto' + $scope.foto.titulo;
+                });
            }else{
-               $http.post('v1/fotos', $scope.foto)
-                   .success(function () {
-                       $scope.foto = {};
-                       $scope.mensagem = 'Foto incluída com sucesso';
-                   })
-                   .error(function (erro) {
-                       $scope.mensagem = 'Não foi possível incluir a foto';
-                       console.log(erro);
-                   });
+
+               recursoFoto.save($scope.foto, function () {
+                   $scope.foto = {};
+                   $scope.mensagem = 'Foto incluída com sucesso';
+               }, function (erro) {
+                   $scope.mensagem = 'Não foi possível incluir a foto';
+                   console.log(erro);
+               });
            }
        }
    };
