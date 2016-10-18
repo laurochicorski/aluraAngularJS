@@ -40,3 +40,27 @@ angular.module('minhasDiretivas', [])
 
 		return ddo;
 	})
+	.directive('meuFocus', function () {
+		var ddo = {};
+		ddo.restrict = 'A';
+		//	Modelo usando watch
+		// ddo.scope = {
+		// 	focado : '='
+		// };
+
+		ddo.link = function (scope, element) {
+
+			scope.$on('fotoCadastrada', function () {
+				element[0].focus();
+			})
+			// Modelo usando watch
+			// scope.$watch('focado', function () {
+			// 	if(scope.focado){
+			// 		element[0].focus();
+			// 		scope.focado = false;
+			// 	}
+			// })
+		}
+
+		return ddo;
+	})

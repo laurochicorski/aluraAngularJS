@@ -43,21 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minhas-diretivas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives/minhas-diretivas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="foto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/foto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="307">
+              <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -75,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foto-controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="foto-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/foto-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="109" selection-start-line="3" selection-start-column="109" selection-end-line="3" selection-end-column="109" />
+            <state relative-caret-position="286">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -87,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meus-servicos.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="meus-servicos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/services/meus-servicos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="195">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -129,6 +119,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="minhas-diretivas.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives/minhas-diretivas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -147,14 +147,14 @@
         <option value="$PROJECT_DIR$/js/directives/meu-painel.html" />
         <option value="$PROJECT_DIR$/js/directives/minha-foto.html" />
         <option value="$PROJECT_DIR$/js/controllers/grupos-controllers.js" />
-        <option value="$PROJECT_DIR$/partials/foto.html" />
         <option value="$PROJECT_DIR$/partials/principal.html" />
-        <option value="$PROJECT_DIR$/js/directives/minhas-diretivas.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/controllers/fotos-controller.js" />
-        <option value="$PROJECT_DIR$/js/services/meus-servicos.js" />
+        <option value="$PROJECT_DIR$/partials/foto.html" />
+        <option value="$PROJECT_DIR$/js/directives/minhas-diretivas.js" />
         <option value="$PROJECT_DIR$/js/controllers/foto-controller.js" />
+        <option value="$PROJECT_DIR$/js/services/meus-servicos.js" />
       </list>
     </option>
   </component>
@@ -339,12 +339,12 @@
       <workItem from="1476713374636" duration="3246000" />
       <workItem from="1476738571890" duration="2119000" />
       <workItem from="1476741500119" duration="2826000" />
-      <workItem from="1476799262893" duration="1765000" />
+      <workItem from="1476799262893" duration="3979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33681000" />
+    <option name="totallyTimeSpent" value="35895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="324" y="24" width="1375" height="876" extended-state="6" />
@@ -381,7 +381,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -728,26 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/minhas-diretivas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/principal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/foto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -776,20 +760,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/meus-servicos.js">
+    <entry file="file://$PROJECT_DIR$/partials/foto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="307">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/minhas-diretivas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/foto-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/foto-controller.js">
+    <entry file="file://$PROJECT_DIR$/js/services/meus-servicos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="109" selection-start-line="3" selection-start-column="109" selection-end-line="3" selection-end-column="109" />
+        <state relative-caret-position="195">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
